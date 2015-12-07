@@ -8,4 +8,5 @@ module.exports.install = function(){
     
     admin.languages['en-us'] = require('./en-us.js');
     admin.languages['sk-sk'] = require('./sk-sk.js');
+    admin.languages['cz-cz'] = require('./cz-cz.js');
 };
