@@ -18,10 +18,10 @@ module.exports = {
         'Default':'Predvolene',
         'default':'predvolene',
         
-        // forms and validation messages, e.g. "Value of "Name" have to be: Text"
+        // forms and validation messages, e.g. "Value of "Name" is: Text"
         'Validation Failed':'Validation Failed',
         'Value of':'Value of',
-        'have to be':'have to be',
+        'must be':'must be',
         'required':'required',
         'isInteger': 'Number',
         'isString': 'Text',
@@ -203,6 +203,12 @@ module.exports = {
         'from@email.com':'odkoho@email.sk',
         'company name':'nazov spolocnosti',
         'Configuration Updated':'Konfiguracia Ulozena',
+        
+        // validation
+        'host':'Server',
+        'port':'Port',
+        'from':'Odosielatel',
+        
     },
     
     /*
