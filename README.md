@@ -1,1 +1,1 @@
-# package-admin-languages
+# Language pack for admin package
