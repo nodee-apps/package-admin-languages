@@ -148,12 +148,6 @@ module.exports = {
         'Send Password':'Zaslat Heslo',
         'Generate New Password':'Vygenerovat Nove Heslo',
         'New password was sent to your email':'Nove heslo bolo zaslane na Vas email',
-
-        // forgot password email
-        'Dear User':'Mily Uzivatel',
-        'Your password was changed to':'Vase heslo bolo zmenene na',
-        'We strongly recommend to change your password after login':'Odporucame si heslo po prihlaseni zmenit',
-        'Thank you':'Dakujeme',
         
         // response error notifications
         'Access Denied':'Pristup Zamietnuty', 
@@ -209,6 +203,17 @@ module.exports = {
         'port':'Port',
         'from':'Odosielatel',
         
+        // forgot pass email
+        'Mailer':'Mail Server',
+        'Forgot Pass. Email':'prelozit...',
+        'Forgot Password Email Settings':'prelozit...',
+        'Email Template':'Sablona Emailu',
+        'Email Subject':'Predmet Emailu',
+        'Email Sent':'Email Zaslany',
+        'Email Sending Error':'Chyba Pri Odosielani Emailu',
+        'Timeout':'Casovy Limit Uplynul',
+        'Test Email':'Test Email',
+        'Send Me Test Email':'Zaslat Mi Test Email',
     },
     
     /*
