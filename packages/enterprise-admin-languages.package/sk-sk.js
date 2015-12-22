@@ -17,6 +17,9 @@ module.exports = {
         'Required':'Povinne',
         'Default':'Predvolene',
         'default':'predvolene',
+        'Optional':'Volitelne',
+        'optional':'volitelne',
+        'Insert':'Vlozit',
         
         // forms and validation messages, e.g. "Value of "Name" is: Text"
         'Validation Failed':'Validation Failed',
@@ -295,6 +298,32 @@ module.exports = {
         // validations
         'selfDisable':'Not Yours',
         'selfRemove':'Not Yours'
-    }
+    },
     
+    /*
+     * Users
+     */
+    '/cms/documents':{
+        'Change Image':'Zmenit Obrazok',
+        'Insert Image':'Vlozit Obrazok',
+        'Insert Link':'Vlozit Odkaz',
+        'Insert Table':'Vlozit Tabulku',
+        'Click On Element':'Kilnite Na Prvok',
+        'Set Natural Image Width':'',
+        'Set Natural Image Height':'',
+        'Image Source':'',
+        'Natural Image Size':'',
+        'Rows':'',
+        'Columns':'',
+        'Wysiwyg':'',
+        'Markdown':'',
+        'Html':'',
+        'Inner Text':'',
+        'Template Updated':'',
+        'Create Template':'',
+        'Remove Template':'',
+        'Are you sure ?':'',
+        
+        
+    }
 };
