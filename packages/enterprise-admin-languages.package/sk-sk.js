@@ -20,6 +20,10 @@ module.exports = {
         'Optional':'Volitelné',
         'optional':'volitelné',
         'Insert':'Vložiť',
+        'not set':'nezvolené',
+        'Not Set':'Nezvolené',
+        'empty':'prázdne',
+        'Empty':'Prázdne',
         
         // forms and validation messages, e.g. "Value of "Name" must be: Text"
         'Validation Failed':'Validácia neúspešná',
