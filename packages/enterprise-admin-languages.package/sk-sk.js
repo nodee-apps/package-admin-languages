@@ -29,6 +29,7 @@ module.exports = {
         'Validation Failed':'Validácia neúspešná',
         'Value of':'Hodnota',
         'must be':'musí byť',
+        'unique':'unikátne',
         'required':'povinné',
         'isInteger': 'Číslo',
         'isString': 'Text',
@@ -98,10 +99,10 @@ module.exports = {
 
         // query
         $equal:'=',
-        $lt:'&lt;',
-        $lte:'&lt;=',
-        $gt:'&gt;',
-        $gte:'&gt;=',
+        $lt:'<',
+        $lte:'<=',
+        $gt:'>',
+        $gte:'>=',
         $regex_exact:'presná zhoda',
         $regex_contains:'obsahuje',
         $regex_begins:'začína s',
@@ -148,6 +149,8 @@ module.exports = {
         'Registration Successful':'Registracia prebehla uspesne',
         'Now, contact your administrator to setup account access permissions, please.':'prelozit text...',
         'This email is used by another user, please enter different':'prelozit text...',
+        'new password (min. 5 letters)':'nové heslo (min. 5 znakov)',
+        'password (min. 5 letters)':'heslo (min. 5 znakov)',
         'repeat new password (min. 5 letters)':'zopakovat nove heslo (min. 5 znakov)',
         
         // forgot password

@@ -94,10 +94,10 @@ module.exports = {
 
         // query
         $equal:'=',
-        $lt:'&lt;',
-        $lte:'&lt;=',
-        $gt:'&gt;',
-        $gte:'&gt;=',
+        $lt:'<',
+        $lte:'<=',
+        $gt:'>',
+        $gte:'>=',
         $regex_exact:'přesná shoda',
         $regex_contains:'obsahuje',
         $regex_begins:'začína s',
@@ -144,6 +144,8 @@ module.exports = {
         'Registration Successful':'Registrace proběhla úspěšně',
         'Now, contact your administrator to setup account access permissions, please.':'Kontaktujte administrátora, aby nastavil povolení přístupu',
         'This email is used by another user, please enter different':'Tento email je již použit, prosím zvolte jiný email',
+        'new password (min. 5 letters)':'nové heslo (min. 5 znaků)',
+        'password (min. 5 letters)':'heslo (min. 5 znaků)',
         'repeat new password (min. 5 letters)':'zopakovat nové heslo (min. 5 znaků)',
         
         // forgot password

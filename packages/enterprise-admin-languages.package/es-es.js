@@ -91,10 +91,10 @@ module.exports = {
 
         // query
         $equal:'=',
-        $lt:'&lt;',
-        $lte:'&lt;=',
-        $gt:'&gt;',
-        $gte:'&gt;=',
+        $lt:'<',
+        $lte:'<=',
+        $gt:'>',
+        $gte:'>=',
         $regex_exact:'coincidencia exacta',
         $regex_contains:'contiene',
         $regex_begins:'comienza con',
@@ -141,7 +141,9 @@ module.exports = {
         'Registration Successful':'Registro completado',
         'Now, contact your administrator to setup account access permissions, please.':'Ahora, contacta con tu administrador para configurar los permisos de acceso, porfavor',
         'This email is used by another user, please enter different':'Este email está siendo utilizado, porfavor usa uno diferente',
-        'repeat new password password (min. 5 letters)':'repite la nueva contraseña (min. 5 caracteres)',
+        'new password (min. 5 letters)':'TRANSLATE',
+        'password (min. 5 letters)':'TRANSLATE',
+        'repeat new password (min. 5 letters)':'repite la nueva contraseña (min. 5 caracteres)',
         
         // forgot password
         'Your Registered Email':'Tu email registrado',
