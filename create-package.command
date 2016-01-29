@@ -1,6 +1,6 @@
 #!/bin/sh
 
-name="enterprise-admin-languages"
+name="nodee-admin-languages"
 
 thisdir="`dirname \"$0\"`"
 cd "$thisdir" &&
