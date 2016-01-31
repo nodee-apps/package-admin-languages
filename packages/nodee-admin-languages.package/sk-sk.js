@@ -84,6 +84,7 @@ module.exports = {
         'My Account': 'Moj Ucet',
         'Profile':'Profil',
         'Change Password': 'Zmenit Heslo',
+        'Change Email':'Zmenit Email',
         'Logout': 'Odhlasit sa',
         'Application Configuration':'Konfiguracia Aplikacie',
         'Toogle Menu Position':'Prepnut Poziciu Menu',
@@ -136,6 +137,7 @@ module.exports = {
         qvalue_true:'Áno',
         qvalue_false:'Nie',
         Search:'Hladat',
+        'Order By':'Zoradiť Podľa',
         
         // login
         'your@email.com':'vas@email.sk',
@@ -239,6 +241,16 @@ module.exports = {
         'new password':'nove haslo',
         'repeat new password':'zopakovat nove heslo',
         'Password Changed':'Heslo Zmenene'
+    },
+    
+    /*
+     * Change Email
+     */
+    '/account/changeemail':{
+        'Change Your Email':'Zmenit Svoj Email',
+        'New Email':'Nový Email',
+        'Change':'Zmeniť',
+        'Email Changed':'Email Zmenený'
     },
     
     /*
