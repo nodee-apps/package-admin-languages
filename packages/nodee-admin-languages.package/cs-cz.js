@@ -300,32 +300,6 @@ module.exports = {
         // validations
         'selfDisable':'Not Yours',
         'selfRemove':'Not Yours'
-    },
+    }
     
-    /*
-     * Users
-     */
-    '/cms/documents':{
-    'Change Image':'Změnit obrázek',
-        'Insert Image':'Vložit obrázek',
-    'Insert Link':'Vložit odkaz',
-    'Insert Table':'Vložit tabulku',
-    'Click On Element':'Klikněte na prvek',
-    'Set Natural Image Width':'Nastavit původní šířku obrázku',
-    'Set Natural Image Height':'Nastavit původní výšku obrázku',
-    'Image Source':'Zdroj obrázku',
-    'Natural Image Size':'Původní velikost obrázku',
-    'Rows':'Řádky',
-    'Columns':'Sloupce',
-    'Wysiwyg':'Wysiwig',
-    'Markdown':'Markdown',
-    'Html':'HTML',
-    'Inner Text':'Vnitřní text',
-    'Template Updated':'Šablóna byla aktualizovaná',
-    'Create Template':'Vytvořit šablónu',
-    'Remove Template':'Smazat šablónu',
-    'Are you sure ?':'Jste si jistý?',
-
-
-}
 };

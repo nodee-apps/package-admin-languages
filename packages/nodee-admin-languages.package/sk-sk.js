@@ -154,6 +154,7 @@ module.exports = {
         'new password (min. 5 letters)':'nové heslo (min. 5 znakov)',
         'password (min. 5 letters)':'heslo (min. 5 znakov)',
         'repeat new password (min. 5 letters)':'zopakovat nove heslo (min. 5 znakov)',
+        'repeat password (min. 5 letters)':'zopakovat heslo (min. 5 znakov)',
         
         // forgot password
         'Your Registered Email':'Vas Registrovany Email',
@@ -278,6 +279,7 @@ module.exports = {
         'Language':'Jazyk',
         
         'Create User':'Vytvorit Uzivatela',
+        'Use Default Roles':'Pouzit Preddefinovane Role',
         'Email':'Email',
         'email@email.com':'email@email.sk',
         'Access':'Pristup',
@@ -317,32 +319,5 @@ module.exports = {
         // validations
         'selfDisable':'Not Yours',
         'selfRemove':'Not Yours'
-    },
-    
-    /*
-     * Users
-     */
-    '/cms/documents':{
-        'Change Image':'Zmeniť obrázok',
-        'Insert Image':'Vložiť obrázok',
-        'Insert Link':'Vložiť odkaz',
-        'Insert Table':'Vložiť tabuľku',
-        'Click On Element':'Kliknite na prvok',
-        'Set Natural Image Width':'Nastaviť pôvodnú šírku obrázka',
-        'Set Natural Image Height':'Nastaviť pôvodnú výšku obrázka',
-        'Image Source':'Zdroj obrázka',
-        'Natural Image Size':'Pôvodná veľkosť obrázka',
-        'Rows':'Riadky',
-        'Columns':'Stĺpce',
-        'Wysiwyg':'Wysiwyg',
-        'Markdown':'Markdown',
-        'Html':'HTML',
-        'Inner Text':'Text vo vnútri',
-        'Template Updated':'Šablóna bola aktualizovaná',
-        'Create Template':'Vytvoriť šablónu',
-        'Remove Template':'Odstrániť šablónu',
-        'Are you sure ?':'Ste si istý?',
-        
-        
     }
 };
