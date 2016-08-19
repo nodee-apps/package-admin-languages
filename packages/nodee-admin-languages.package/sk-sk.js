@@ -55,6 +55,7 @@ module.exports = {
         'isIP': 'IP adresa',
         'isAlpha': 'len písmena (a-zA-Z)',
         'isNumeric': 'Číslo',
+        'isNumber': 'Číslo',
         'isAlphanumeric': 'Alfanumerická',
         'isBase64': 'Base64',
         'isHexadecimal': 'Hexadecimálny',
