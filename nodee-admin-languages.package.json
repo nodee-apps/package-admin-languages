@@ -1,0 +1,6 @@
+{
+    "name":"nodee-admin-languages",
+    "version":"0.1.0",
+    "dependencies":[ "nodee-total", "nodee-admin" ],
+    "config":{}
+}

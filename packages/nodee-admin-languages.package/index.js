@@ -1,6 +1,6 @@
 module.exports.id = 'nodee-admin-languages';
 module.exports.name = 'nodee-admin-languages';
-module.exports.version = '0.1.0';
+// module.exports.version = '0.1.0'; - moved to nodee-admin-languages.package.json
 module.exports.dependencies = ['nodee-admin'];
 
 module.exports.install = function(){
