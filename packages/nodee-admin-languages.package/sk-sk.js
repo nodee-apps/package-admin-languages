@@ -13,6 +13,7 @@ module.exports = {
         'Delete':'Vymazať',
         'Create':'Vytvoriť',
         'Update':'Uloziť',
+        'Save':'Uloziť',
         'Reload':'Obnoviť',
         'Required':'Povinné',
         'Default':'Predvolené',
@@ -228,6 +229,18 @@ module.exports = {
         'Timeout':'Casovy Limit Uplynul',
         'Test Email':'Test Email',
         'Send Me Test Email':'Zaslat Mi Test Email',
+        'Validate Email Template':'Validovat Emalovu Sablonu',
+        'Subject':'Subjekt',
+        'Body':'Telo',
+        'Template is Valid':'Šablóna je Validná'
+
+        // translations
+        'some description for others':'TRANSLATE',
+        'Language ID':'TRANSLATE',
+        'unique language ID, e.g. en-us, de-de, ...':'TRANSLATE',
+        'Add Language':'TRANSLATE',
+        'Allowed Translations - List of Language Codes':'TRANSLATE',
+        'Translations':'TRANSLATE'
     },
     
     /*
@@ -320,5 +333,17 @@ module.exports = {
         // validations
         'selfDisable':'Not Yours',
         'selfRemove':'Not Yours'
+    },
+
+    /*
+     * Translations
+     */
+    '/translations':{
+        'Text':'TRANSLATE',
+        'text':'TRANSLATE',
+        'translated base text':'TRANSLATE',
+        'Translations':'TRANSLATE',
+        'Add Text':'TRANSLATE',
+        'locals':'TRANSLATE'
     }
 };

@@ -1,10 +1,24 @@
+'use strict';
+
 module.exports.id = 'nodee-admin-languages';
 module.exports.name = 'nodee-admin-languages';
 // module.exports.version = '0.1.0'; - moved to nodee-admin-languages.package.json
 module.exports.dependencies = ['nodee-admin'];
 
 module.exports.install = function(){
+
+    // load "nodee-total" module
+    var nodee = MODULE('nodee-total');
+
+    // notify nodee-total, that this package is starting
+    nodee.setReady('nodee-admin-languages', true);
+    nodee.setHealthy('nodee-admin-languages', true);
+
     var admin = MODULE('nodee-admin');
+
+    /*
+     * Admin Area Localisations
+     */
     
     // localisation scripts for angular
     // https://github.com/angular/angular.js/tree/master/src/ngLocale
