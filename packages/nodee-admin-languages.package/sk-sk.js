@@ -232,7 +232,7 @@ module.exports = {
         'Validate Email Template':'Validovat Emalovu Sablonu',
         'Subject':'Subjekt',
         'Body':'Telo',
-        'Template is Valid':'Šablóna je Validná'
+        'Template is Valid':'Šablóna je Validná',
 
         // translations
         'some description for others':'TRANSLATE',
